@@ -9,9 +9,7 @@ using StochasticDiffEq
 import DiffEqNoiseProcess
 import RandomNumbers: Xorshifts
 using Random
-import Zygote, ReverseDiff
 import ArrayInterface
-import Enzyme
 import GPUArraysCore
 using ADTypes
 using SparseDiffTools
@@ -23,7 +21,6 @@ import PreallocationTools: dualcache, get_tmp, DiffCache, LazyBufferCache,
                            FixedSizeDiffCache
 import FunctionWrappersWrappers
 using EllipsisNotation
-using FunctionProperties: hasbranching
 
 using Markdown
 
